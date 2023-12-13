@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    border: 1px solid #dadada;
+    padding: 2rem;
+}
+
+.container h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.container p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #141414;
+}
+
+form {
+    margin: 3rem 0;
+}
+
+form h2 {
+    font-size: 2.1rem;
+}
+
+.input-box {
+    display: block;
+    width: 100%;
+    padding: 0.9rem;
+    font-size: 1.2rem;
+    margin: 0.5rem 0 3rem 0;
+}
+
+.btn,
+.start-btn {
+    display: block;
+    margin: auto;
+    color: #fff;
+    background-color: #1e90ff;
+    font-size: 1rem;
+    letter-spacing: 0.7px;
+    border: none;
+    outline: transparent;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:disabled {
+    cursor: default;
+    background-color: #92b5d8;
+}
+
+.btn:not(:disabled):hover {
+    background-color: #0b76e0;
+}
+
+.start-btn {
+    color: #fff;
+    background-color: #ff4500;
+    margin-top: 1rem;
+    display: none;
+}
+
+.start-btn:hover {
+    background-color: #de3c01;
+}
+
+.start-btn.active {
+    display: block;
+}
+
+.container .bottom-part p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.guesses {
+    background-color: #00000033;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-top: 2rem;
+}
